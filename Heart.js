@@ -32,7 +32,7 @@ let afk = require("./Gallery/lib/afk");
 const { fetchBuffer, buffergif } = require("./Gallery/lib/myfunc2")
 
 /////log
- global.modnumber = '919060791616' 
+ global.modnumber = '923177238043' 
 //Gallery/database
 let ntilinkall =JSON.parse(fs.readFileSync('./Gallery/database/antilink.json'));
 // let autoblck =JSON.parse(fs.readFileSync('./Gallery/database/autoblock.json'));
@@ -43,7 +43,7 @@ let hit = JSON.parse(fs.readFileSync('./Gallery/database/total-hit-user.json'))
 
 //time
 const replay = (teks) => {
-            Maria.sendMessage(m.chat, { text: teks}, { quoted: m})
+            Haris.sendMessage(m.chat, { text: teks}, { quoted: m})
         }
 const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
         const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
